@@ -112,7 +112,7 @@ function NavbarTopSec() {
                             <SearchIcon/>
                             </Typography>
                             <Typography>
-                            <ShoppingCartIcon/>
+                            <ShoppingCartIcon onClick={() => navigate("/cart")}/>
                             </Typography>
                             <Drawer open={open} anchor="left" onClose={toggleSlider}>
                                       {sideList()}
